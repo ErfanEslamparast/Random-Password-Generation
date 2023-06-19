@@ -1,0 +1,33 @@
+body{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 218, 222);
+    padding: 30px;
+    width: 250px;
+    height: 200px;
+}
+h2{
+    text-align: center;
+}
+input{
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 7px 5px;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+}   
+button{
+    padding: 10px 0;
+    width: 130px;
+    background-color: rgb(176, 176, 190);
+}
